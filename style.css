@@ -1,0 +1,194 @@
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset */
+
+/* start general */
+body{
+    font-family: Roboto, "微軟正黑體";
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bg-first{
+    background-color: #000;
+}
+/* end general */
+
+/* start utilities */
+.title-1st{
+    font-size: 80px;
+}
+.title-2nd{
+    font-size: 64px;
+}
+.title-3rd{
+    font-size: 24px;
+}
+.title-4th{
+    font-size: 20px;
+}
+.w-384{
+    width: 384px;
+}
+.lh30{
+    line-height: 30px;
+}
+.lh36{
+    line-height: 36px;
+}
+.lh42{
+    line-height: 42px;
+}
+.lh75{
+    line-height: 75px;
+}
+.lh94{
+    line-height: 94px;
+}
+.fw-b{
+    font-weight: bold;
+}
+.fw-m{
+    font-weight: medium;
+}
+.fw-ba{
+    font-weight: black;
+}
+.fs-i{
+    font-style: italic;
+}
+.pt-32{
+    padding-top: 32px;
+}
+.pt-64{
+    padding-top: 64px;
+}
+.pt-356{
+    padding-top: 356px;
+}
+.pb-8{
+    padding-bottom: 8px;
+}
+.pb-16{
+    padding-bottom: 16px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.pb-32{
+    padding-bottom: 32px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.pb-56{
+    padding-bottom: 56px;
+}
+.pb-64{
+    padding-bottom: 64px;
+}
+.pb-68{
+    padding-bottom: 68px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.pb-160{
+    padding-bottom: 160px;
+}
+.pb-268{
+    padding-bottom: 268px;
+}
+.mr-16{
+    margin-right: 16px;
+}
+.mr-24{
+    margin-right: 24px;
+}
+/* end utilities */
+
+
+/* start banner */
+.banner{
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 958px;
+    border: 1px solid #707070;
+}
+.banner-container{
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+/* end banner */
+
+/* start about */
+.about-container{
+    max-width: 420px;
+    margin: 0 auto;
+}
+.bdt{
+    border-top: 1px solid #000;
+}
+.dot{
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+}
